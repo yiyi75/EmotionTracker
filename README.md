@@ -7,6 +7,7 @@ Emotion Tracker is a React application that allows users to track and visualize 
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+  - [Emotion Visualization](#emotionvisualization)
 
 ## Getting Started
 
