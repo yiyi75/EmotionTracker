@@ -1,7 +1,5 @@
 # Emotion Tracker
 
-![Emotion Tracker Logo](link_to_your_logo_image)
-
 Emotion Tracker is a React application that allows users to track and visualize their current emotions. Users can select from a range of emotions such as confused, anxious, or energized, and view their chosen emotion along with the overall class emotion percentage.
 
 ## Table of Contents
@@ -9,9 +7,6 @@ Emotion Tracker is a React application that allows users to track and visualize 
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 
@@ -38,9 +33,9 @@ Before you begin, make sure you have the following tools installed:
 4. To start the Emotion Tracker app locally, run the following command:
    npm start
 
-Emotion Visualization
+### Emotion Visualization
 
-The core functionality of Emotion Tracker is implemented in the EmotionVisualization component. This component handles the tracking and visualization of emotions, including updating Firebase data.
+The core functionality of Emotion Tracker is implemented in the EmotionVisualization.js component (under src folder). This component handles the tracking and visualization of emotions, including updating Firebase data.
 
 Here is a brief overview of how it works:
 
