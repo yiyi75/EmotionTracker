@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Emotion Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Emotion Tracker Logo](link_to_your_logo_image)
 
-## Available Scripts
+Emotion Tracker is a React application that allows users to track and visualize their current emotions. Users can select from a range of emotions such as confused, anxious, or energized, and view their chosen emotion along with the overall class emotion percentage.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Follow these instructions to get the Emotion Tracker app up and running on your local machine.
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Before you begin, make sure you have the following tools installed:
 
-### `npm run build`
+- [Node.js](https://nodejs.org/) - JavaScript runtime environment
+- [npm](https://www.npmjs.com/) - Node Package Manager
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone this GitHub repository to your local machine:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```shell
+   git clone https://github.com/yiyi75/EmotionTracker.git
 
-### `npm run eject`
+2. Navigate to the project directory:
+   cd EmotionTracker
+3. Install the project dependencies using npm:
+   npm install
+4. To start the Emotion Tracker app locally, run the following command:
+   npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Emotion Visualization
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The core functionality of Emotion Tracker is implemented in the EmotionVisualization component. This component handles the tracking and visualization of emotions, including updating Firebase data.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Here is a brief overview of how it works:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- It calculates and displays the percentage of each emotion (e.g., confused, anxious, engaged) based on user input.
 
-## Learn More
+- It interacts with Firebase Realtime Database to store and retrieve emotion data.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- It provides visualizations in the form of thermometers for individual emotions and class emotions.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- The component automatically updates the visualizations when emotion counts change.
 
-### Code Splitting
+- Emotion data is stored by date and user ID, allowing users to track their emotions over time.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   
