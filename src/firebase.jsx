@@ -2,12 +2,12 @@
 import { initializeApp } from 'firebase/app';
 import { getDatabase } from "firebase/database";
 
-// replace with firebase project config
+// replace with your firebase config
 const firebaseConfig = {
-    apiKey: "xxxx",
-    authDomain: "xxxx",
-    projectId: "xxxx",
-    storageBucket: "xxxx",
+    apiKey: "xxx",
+    authDomain: "xxx",
+    projectId: "xxx",
+    storageBucket: "xxx",
     messagingSenderId: "xxx",
     appId: "xxx",
 };
