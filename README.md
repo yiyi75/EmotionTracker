@@ -36,20 +36,36 @@ Before you begin, make sure you have the following tools installed:
 5. To start the Emotion Tracker app locally, run the following command:
    npm start
 
-### Emotion Visualization
+## Key Features
 
-The core functionality of Emotion Tracker is implemented in the EmotionVisualization.js component (under src folder). This component handles the tracking and visualization of emotions, including updating Firebase data.
+### User Authentication
 
-Here is a brief overview of how it works:
+- **Sign Up**: New users can create an account with a personalized username and password.
+- **Sign In**: Registered users can securely log in to access their emotion data.
 
-- It calculates and displays the percentage of each emotion (e.g., confused, anxious, engaged) based on user input.
+### User Dashboard
 
-- It interacts with Firebase Realtime Database to store and retrieve emotion data.
+- **Personalized Overview**: Users are greeted with a customizable dashboard that provides an at-a-glance summary of their emotional journey.
+- **Total Emotion Counts**: The dashboard displays the total count of each emotion category the user has experienced, helping them understand their emotional patterns.
 
-- It provides visualizations in the form of thermometers for individual emotions and class emotions.
+### Emotion Tracking
 
-- The component automatically updates the visualizations when emotion counts change.
+- **Real-time Emotion Selection**: Users can select from a range of emotions, including options like confused, anxious, and energized.
+- **Visualized Emotions**: Selected emotions are graphically represented, allowing users to see their current emotional state at a glance.
+- **Date Selection**: Users can choose specific dates to track their emotions, enabling a detailed view of how emotions have fluctuated over time.
 
+### Emotion Trends Over Time
+
+- **Historical Data**: Emotion Tracker records and presents emotion data from previous tracking sessions, allowing users to track their emotional evolution.
+- **Date-Based Comparison**: Users can compare their emotions on different dates, gaining insights into how specific events or circumstances may influence their emotional states.
+- **Graphical Trends**: Emotions over time are visualized using interactive graphs and charts, offering a clear and intuitive representation of emotional trends.
+
+### Class Overall Emotions
+
+- **Class Emotion Percentage**: Emotion Tracker calculates the overall class emotion percentage based on the selected date, giving users an idea of the predominant emotions during specific periods.
+- **Emotional Classifications**: Users can explore the distribution of emotions within each class (e.g., positive, negative) on different dates.
+
+With Emotion Tracker, users can not only monitor their emotions in real-time but also gain valuable insights into their emotional patterns, allowing for greater self-awareness and personal growth. Whether for self-reflection, mental health tracking, or curiosity about emotional fluctuations, this application provides a comprehensive solution to enhance emotional intelligence and self-understanding.
 - Emotion data is stored by date and user ID, allowing users to track their emotions over time.
 
 
