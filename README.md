@@ -52,11 +52,9 @@ Before you begin, make sure you have the following tools installed:
 
 - **Real-time Emotion Selection**: Users can select from a range of emotions, including options like confused, anxious, and energized.
 - **Visualized Emotions**: Selected emotions are graphically represented, allowing users to see their current emotional state at a glance.
-- **Date Selection**: Users can choose specific dates to track their emotions, enabling a detailed view of how emotions have fluctuated over time.
 
 ### Emotion Trends Over Time
 
-- **Historical Data**: Emotion Tracker records and presents emotion data from previous tracking sessions, allowing users to track their emotional evolution.
 - **Date-Based Comparison**: Users can compare their emotions on different dates, gaining insights into how specific events or circumstances may influence their emotional states.
 - **Graphical Trends**: Emotions over time are visualized using interactive graphs and charts, offering a clear and intuitive representation of emotional trends.
 
