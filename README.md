@@ -31,7 +31,7 @@ Before you begin, make sure you have the following tools installed:
 2. Navigate to the project directory:
    cd EmotionTracker
 3. Install the project dependencies using npm:
-   npm install
+   **npm install**
 4. Create a new project on [Fireabase](https://firebase.google.com/) and replace the firebase config in **firebase.jsx**.
 5. To start the Emotion Tracker app locally, run the following command:
    npm start
