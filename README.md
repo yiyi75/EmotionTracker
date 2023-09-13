@@ -36,32 +36,6 @@ Before you begin, make sure you have the following tools installed:
 5. To start the Emotion Tracker app locally, run the following command:
    npm start
 
-## Key Features
-
-### User Authentication
-
-- **Sign Up**: New users can create an account with a personalized username and password.
-- **Sign In**: Registered users can securely log in to access their emotion data.
-
-### User Dashboard
-
-- **Personalized Overview**: Users are greeted with a customizable dashboard that provides an at-a-glance summary of their emotional journey.
-- **Total Emotion Counts**: The dashboard displays the total count of each emotion category the user has experienced, helping them understand their emotional patterns.
-
-### Emotion Tracking
-
-- **Real-time Emotion Selection**: Users can select from a range of emotions, including options like confused, anxious, and energized.
-- **Visualized Emotions**: Selected emotions are graphically represented, allowing users to see their current emotional state at a glance.
-
-### Emotion Trends Over Time
-
-- **Date-Based Comparison**: Users can compare their emotions on different dates, gaining insights into how specific events or circumstances may influence their emotional states.
-- **Graphical Trends**: Emotions over time are visualized using interactive graphs and charts, offering a clear and intuitive representation of emotional trends.
-
-### Class Overall Emotions
-
-- **Class Emotion Percentage**: Emotion Tracker calculates the overall class emotion percentage based on the selected date, giving users an idea of the predominant emotions during specific periods.
-- **Emotional Classifications**: Users can explore the distribution of emotions within each class (e.g., positive, negative) on different dates.
 
 With Emotion Tracker, users can not only monitor their emotions in real-time but also gain valuable insights into their emotional patterns, allowing for greater self-awareness and personal growth. Whether for self-reflection, mental health tracking, or curiosity about emotional fluctuations, this application provides a comprehensive solution to enhance emotional intelligence and self-understanding.
 
