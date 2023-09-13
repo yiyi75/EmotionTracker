@@ -1,7 +1,7 @@
 # Emotion Tracker
 
 Emotion Tracker is a React application that allows users to track and visualize their current emotions. Users can select from a range of emotions such as confused, anxious, or energized, and view their chosen emotion along with the overall class emotion percentage.
-**Live Website:** [Emotion Tracker](https://emotionratings-a2b6e.web.app/)
+**Live Website:** [Emotion Tracker](https://emotiondashboard.web.app/)
 
 ## Table of Contents
 
@@ -66,7 +66,6 @@ Before you begin, make sure you have the following tools installed:
 - **Emotional Classifications**: Users can explore the distribution of emotions within each class (e.g., positive, negative) on different dates.
 
 With Emotion Tracker, users can not only monitor their emotions in real-time but also gain valuable insights into their emotional patterns, allowing for greater self-awareness and personal growth. Whether for self-reflection, mental health tracking, or curiosity about emotional fluctuations, this application provides a comprehensive solution to enhance emotional intelligence and self-understanding.
-- Emotion data is stored by date and user ID, allowing users to track their emotions over time.
 
 
    
